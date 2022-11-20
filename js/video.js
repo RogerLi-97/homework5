@@ -85,7 +85,7 @@ muteButton.addEventListener("click", function() {
 });
 
 // 8. volume slider
-volumeSider.addEventListener("click", function() {
+volumeSider.addEventListener("change", function() {
     video.volume = volumeSider.value / volumeSider.max;
     volumeInfo.innerText = volumeSider.value;
 });
